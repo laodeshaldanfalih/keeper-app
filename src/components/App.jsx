@@ -3,19 +3,16 @@ import Header from "./Header";
 import Footer from "./Footer";
 import Note from "./Note";
 import note from "../notes";
+import CreateArea from "./CreateArea";
 
 
 function App() {
   return (
     <div>
       <Header />
-      {note.map((props)=>{
-        return <Note
-          key = {props.key}
-          title = {props.title}
-          content = {props.content}
-        />
-      })}
+      <CreateArea />
+      <Note title={"Hello"} content={"Wassap this is content"}
+      />
       <Footer />
     </div>
   );
