@@ -59,12 +59,14 @@ footer p {
   position: relative;
   float: right;
   margin-right: 10px;
-  color: #f5ba13;
+  color: white;
   border: none;
-  width: 36px;
-  height: 36px;
+  width: 60px;
+  height: 25px;
   cursor: pointer;
   outline: none;
+  background-color: #f5ba13;
+  border-radius: 8px;
 }
 
 form {
